@@ -10,7 +10,7 @@ A DIY crypto index fund based on Google spreadsheet and [Coinmarketcap](https://
 - Configurable _Hard Cap_ to avoid BTC or other currencies dominance 
 
 ## Disclaimer
-I'm *not* a trader and I don't have any professional finance experience. 
+I'm **not** a trader and I don't have any professional finance experience. 
 Use the spreadsheet at own risk. 
 
 ## Assumptions
@@ -19,7 +19,7 @@ Use the spreadsheet at own risk.
 - I prefer [rebalancing](https://en.wikipedia.org/wiki/Rebalancing_investments) rather then betting / trading based on rumors / news / gut 
 - Rebalancing helps you to sell high and buy low, it takes the emotion out of trying to call the bottom or the top.
 - _Hard cap_ is a way to avoid BTC to be too large in your portfolio.
-- Crypto market has an *high* volatility do rebalance at least a couple of time per month or when you hit the _Rebalance warning_ limit
+- Crypto market has an **high** volatility do rebalance at least a couple of time per month or when you hit the _Rebalance warning_ limit
 - Coinmarketcap APIs provide the currency average price. You could have significant discrepancy from their data and you exchange
 
 ##Conventions:
@@ -36,16 +36,16 @@ Use the spreadsheet at own risk.
 - Give the required permissions to run the script
 
 ### Authentication required
-![alt text](screenshots/1_auth_required.png "Auth required"){:height="100px"}
+![alt text](screenshots/1_auth_required.png | height=300)
 
 ### App not verified
-![alt text](screenshots/2_app_not_verified.png "App not verified"){:height="100px"}
+![alt text](screenshots/2_app_not_verified.png | height=300)
 
 ### Go to CC import
-![alt text](screenshots/3_go_to_CC_import.png "Go to CC import"){:height="100px"}
+![alt text](screenshots/3_go_to_CC_import.png | height=300)
 
 ### Permissions
-![alt text](screenshots/3_go_to_CC_import.png "Go to CC import"){:height="100px"}
+![alt text](screenshots/3_go_to_CC_import.png | height=300)
 
 *notice:* I know, all those permissions are scary. Double check in the `src/index.js` how it works :)
   
