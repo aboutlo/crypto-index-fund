@@ -44,7 +44,7 @@ Use the spreadsheet at own risk.
 
 ### Authentication required
 
-<img src="screenshots/1_auth_required.png" height="300">
+<img src="screenshots/1_auth_required.png" height="300" width="300">
 
 ### App not verified
 
