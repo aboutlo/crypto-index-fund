@@ -58,11 +58,6 @@ function getTotalMarketCap(convert) {
   return parseFloat(market);
 }
 
-function test() {
-  const currencies = getColumnValues('B');
-  console.log('currencies:', currencies);
-}
-
 function getColumnValues(column) {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
   var range = sheet.getRange(column + ':' + column); // like A:A
@@ -92,13 +87,18 @@ function fillSpreadsheet(totalMarketCap, assets) {
         .setValue(Math.round(volume24h))
         .setNumberFormat(CURRENCY_FORMAT[CURRENCY]);
       sheet.getRange('E' + index).setValue(asset.naturalRatio);
+      sheet.getRange('F' + index).setValue(parseFloat(asset.percent_change_1h));
       sheet
-        .getRange('F' + index)
+        .getRange('G' + index)
+        .setValue(parseFloat(asset.percent_change_24h));
+      sheet.getRange('H' + index).setValue(parseFloat(asset.percent_change_7d));
+      sheet
+        .getRange('I' + index)
         .setValue(fiatPrice)
         .setNumberFormat(CURRENCY_FORMAT[CURRENCY]);
-      sheet.getRange('G' + index).setValue(btcPrice);
-      sheet.getRange('H' + index).setValue(Math.round(asset.rank));
-      sheet.getRange('J' + index).setValue(asset.ratio);
+      sheet.getRange('J' + index).setValue(btcPrice);
+      sheet.getRange('K' + index).setValue(Math.round(asset.rank));
+      sheet.getRange('M' + index).setValue(asset.ratio);
     }
   });
 
