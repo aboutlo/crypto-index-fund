@@ -25,7 +25,7 @@ Use the spreadsheet at own risk.
 * Crypto market has an **high** volatility do rebalance at least a couple of time per month or when you hit the _Rebalance warning_ limit
 * Coinmarketcap APIs provide the currency average price. You could have significant discrepancy from their data and you exchange
 
-##Conventions:
+## Conventions:
 
 * Green fields are the inputs. Aka edit only them.
 * Blue fields are calculated. they represent the actionable actions (E.g buy or sell # coins)
@@ -42,19 +42,19 @@ Use the spreadsheet at own risk.
 
 ### Authentication required
 
-![alt text](screenshots/1_auth_required.png | height=300)
+<img src="screenshots/1_auth_required.png" height="300">
 
 ### App not verified
 
-![alt text](screenshots/2_app_not_verified.png | height=300)
+<img src="screenshots/2_app_not_verified.png" height="300">
 
 ### Go to CC import
 
-![alt text](screenshots/3_go_to_CC_import.png | height=300)
+<img src="screenshots/3_go_to_CC_import.png" height="300">
 
 ### Permissions
 
-![alt text](screenshots/3_go_to_CC_import.png | height=300)
+<img src="screenshots/4_permissions.png" height="300">
 
 _notice:_ I know, all those permissions are scary. Double check in the `src/index.js` how it works :)
 
