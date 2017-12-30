@@ -2,6 +2,8 @@
 
 A DIY crypto index fund based on Google spreadsheet and [Coinmarketcap](https://coinmarketcap.com/api/) APIs
 
+<img src="screenshots/spash.png" height="300">
+
 ## Features
 
 * Prices updated from [Coinmarketcap](https://coinmarketcap.com)
