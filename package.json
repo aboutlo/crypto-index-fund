@@ -7,7 +7,7 @@
   "private": true,
   "dependencies": {},
   "scripts": {
-    "build": "babel src/index.js -d build/"
+    "build": "babel src/index.js -o build/index.js"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
