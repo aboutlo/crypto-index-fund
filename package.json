@@ -1,7 +1,8 @@
 {
   "name": "crypto-index-fund",
   "version": "0.0.1",
-  "description": "A DIY crypto index fund based on Google spreadsheet and Coinmarketcap APIs",
+  "description":
+    "A DIY crypto index fund based on Google spreadsheet and Coinmarketcap APIs",
   "main": "index.js",
   "license": "MIT",
   "private": true,
@@ -13,10 +14,7 @@
   },
   "lint-staged": {
     "linters": {
-      "*.js": [
-        "prettier --write",
-        "git add"
-      ]
+      "*.{js,json,css,md}": ["prettier --write", "git add"]
     }
   },
   "devDependencies": {
