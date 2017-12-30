@@ -1,0 +1,17 @@
+{
+  "name": "crypto-index-fund",
+  "version": "0.0.1",
+  "description": "A DIY crypto index fund based on Google spreadsheet and Coinmarketcap APIs",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {},
+  "scripts": {
+    "build": "babel src/index.js -d build/"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "prettier": "^1.9.2"
+  }
+}
